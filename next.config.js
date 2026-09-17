@@ -3,7 +3,7 @@ const nextConfig = {
   // output: 'export', // Commented out to support dynamic routes for candidate flow
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
-  distDir: 'dist',
+  // distDir: 'dist',
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
   assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/` : '',
   images: {
