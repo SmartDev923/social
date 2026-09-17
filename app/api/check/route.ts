@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { BACKEND_URL } from "@/config/credentials";
 
+export const dynamic = 'force-dynamic';
+
 // Helper function to extract client IP address from request
 function getClientIP(request: NextRequest): string {
   // Check X-Forwarded-For header (first IP in comma-separated list)
